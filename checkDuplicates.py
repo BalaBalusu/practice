@@ -2,7 +2,7 @@ class Solution:
     #simple solution to iterate and exit - hasset
     def containsDuplicate(self, nums: List[int]) -> bool:
         addNums=set()
-        for number in range (nums):
+        for number in nums:
           if number in addNums:
              print("checking number in new Array addNums")
              return True
